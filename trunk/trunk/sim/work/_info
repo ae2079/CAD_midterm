@@ -1,0 +1,333 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Desktop/trunk/trunk/sim
+vadder_13bit
+Z1 !s110 1638217501
+!i10b 1
+!s100 D];<[9WOGW?oF8Vn[UDZj3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlI:=OGNG_7nPMB6RmLVKG0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1638209770
+Z5 8model/adder.v
+Z6 Fmodel/adder.v
+!i122 1
+Z7 L0 10 7
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1638217501.000000
+Z10 !s107 model/adder.v|
+Z11 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/adder.v|
+!i113 1
+Z12 o+acc -source
+Z13 !s92 +acc -source +define+SIM
+Z14 tCvgOpt 0
+vadder_4bit
+R1
+!i10b 1
+!s100 OVV[L<hgJ<K1fhNAnkQL71
+R2
+I>ii5g1O:i:i[^8DIbWab]1
+R3
+R0
+R4
+R5
+R6
+!i122 1
+Z15 L0 2 7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vComb
+R1
+!i10b 1
+!s100 UijcmGMe_zdVhe4dMW=CO2
+R2
+IXefNkFOfJ^R@?IKLb^<9Q2
+R3
+R0
+w1638212250
+8model/Comb.v
+Fmodel/Comb.v
+!i122 2
+L0 3 8
+R8
+r1
+!s85 0
+31
+R9
+!s107 model/Comb.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/Comb.v|
+!i113 1
+R12
+R13
+R14
+n@comb
+vComb_TB
+!s10a 1638215846
+!s110 1638217342
+!i10b 1
+!s100 XT1U@c3H7[G^XojYPIQ`^2
+R2
+IYCDHCQ5c2X@Hch9N[Q8`42
+R3
+R0
+w1638215846
+8./tb/Comb_TB.v
+F./tb/Comb_TB.v
+!i122 0
+L0 3 51
+R8
+r1
+!s85 0
+31
+!s108 1638217341.000000
+!s107 ./tb/Comb_TB.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/Comb_TB.v|
+!i113 1
+R12
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R14
+n@comb_@t@b
+vController
+R1
+!i10b 1
+!s100 d`2g[kK`RIIkR7]aHKG0[2
+R2
+I@JX4o>=C_j<MaPIc02SC?0
+R3
+R0
+w1638215128
+8model/Controller.v
+Fmodel/Controller.v
+!i122 3
+L0 3 57
+R8
+r1
+!s85 0
+31
+R9
+!s107 model/Controller.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/Controller.v|
+!i113 1
+R12
+R13
+R14
+n@controller
+vDataPath
+R1
+!i10b 1
+!s100 GW`H`FSzWf=eO38IO^8CY3
+R2
+IJonPfO^R:Z>CHYig58;VK3
+R3
+R0
+w1638211160
+8model/Datapath.v
+Fmodel/Datapath.v
+!i122 4
+L0 2 45
+R8
+r1
+!s85 0
+31
+R9
+!s107 model/Datapath.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/Datapath.v|
+!i113 1
+R12
+R13
+R14
+n@data@path
+vIs_same
+R1
+!i10b 1
+!s100 7^N2n3:RM]A?gGzjdW<m40
+R2
+I@O@;PVnDNbX:z?kfm8KTa0
+R3
+R0
+Z16 w1638212522
+Z17 8model/some_modules.v
+Z18 Fmodel/some_modules.v
+!i122 7
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 model/some_modules.v|
+Z20 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/some_modules.v|
+!i113 1
+R12
+R13
+R14
+n@is_same
+vMUX2to1_13bit
+R1
+!i10b 1
+!s100 V2z8YMHCfTRikemIajGVR3
+R2
+I2_:njIIk2>>jS]Vh?>mol3
+R3
+R0
+Z21 w1638209694
+Z22 8model/MUX.v
+Z23 Fmodel/MUX.v
+!i122 5
+L0 2 8
+R8
+r1
+!s85 0
+31
+R9
+Z24 !s107 model/MUX.v|
+Z25 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/MUX.v|
+!i113 1
+R12
+R13
+R14
+n@m@u@x2to1_13bit
+vMUX3to1_4bit
+R1
+!i10b 1
+!s100 U0W9F;mcV<lEkB<UiT2S^2
+R2
+I38Q6[E:49K6JFJO0];cXc2
+R3
+R0
+R21
+R22
+R23
+!i122 5
+L0 11 8
+R8
+r1
+!s85 0
+31
+R9
+R24
+R25
+!i113 1
+R12
+R13
+R14
+n@m@u@x3to1_4bit
+vOR_module
+R1
+!i10b 1
+!s100 YcDS@4M1;G::Skblo[`kW0
+R2
+ITgQzd0oRhFRA7HY[laM4A0
+R3
+R0
+R16
+R17
+R18
+!i122 7
+R15
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@o@r_module
+vreg_13bit
+R1
+!i10b 1
+!s100 ^5B6ZQLHX@jN[bTWFz:=93
+R2
+I4zR24E?Mlic<3I76l1HSY2
+R3
+R0
+Z26 w1638209640
+Z27 8model/reg.v
+Z28 Fmodel/reg.v
+!i122 6
+L0 16 13
+R8
+r1
+!s85 0
+31
+R9
+Z29 !s107 model/reg.v|
+Z30 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/reg.v|
+!i113 1
+R12
+R13
+R14
+vreg_4bit
+R1
+!i10b 1
+!s100 FzYI:UeYohWD<5MK]lY6_3
+R2
+I49FlmG3LWf7Q^RECWTkoa2
+R3
+R0
+R26
+R27
+R28
+!i122 6
+L0 2 13
+R8
+r1
+!s85 0
+31
+R9
+R29
+R30
+!i113 1
+R12
+R13
+R14
+vStack
+R1
+!i10b 1
+!s100 QRRm1F8]b@:KkYU<2^ghB3
+R2
+IXmozjBnR<55:jTR[`fRJl2
+R3
+R0
+w1638209481
+8model/Stack.v
+Fmodel/Stack.v
+!i122 8
+L0 2 26
+R8
+r1
+!s85 0
+31
+R9
+!s107 model/Stack.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|model/Stack.v|
+!i113 1
+R12
+R13
+R14
+n@stack
